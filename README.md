@@ -57,18 +57,7 @@ npm install
 npm run dev
 ```
 
-## 🌐 Deployment
 
-### 1. Railway (Backend)
-1.  Connect your GitHub repo to **Railway**.
-2.  Select the `/backend` directory.
-3.  Add the `HF_API_KEY` environment variable.
-4.  The `Procfile` will handle the rest.
-
-### 2. Vercel (Frontend)
-1.  Connect your GitHub repo to **Vercel**.
-2.  Select the `/frontend` directory.
-3.  Add the `VITE_API_BASE_URL` environment variable pointing to your Railway URL.
 
 ---
-Built with ❤️ for SAP Analytics by Dodge AI Team.
+
