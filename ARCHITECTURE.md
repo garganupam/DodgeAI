@@ -35,4 +35,3 @@ The database connection used by the LLM pipeline is strictly **read-only**. Even
 The system validates the generated SQL against the injected schema before execution. If the LLM generates a non-existent column, the backend catches the error and provides a "soft failure" message rather than crashing or returning garbled data.
 
 ---
-Built by Dodge AI Team - 2026
