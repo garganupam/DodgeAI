@@ -1,0 +1,308 @@
+{
+  "edges": [
+    {
+      "id": 1,
+      "source_id": "CUST-310000108",
+      "target_id": "ORD-740506",
+      "relationship_type": "PLACED",
+      "weight": 17108.25
+    },
+    {
+      "id": 2,
+      "source_id": "CUST-310000109",
+      "target_id": "ORD-740507",
+      "relationship_type": "PLACED",
+      "weight": 19021.27
+    },
+    {
+      "id": 3,
+      "source_id": "CUST-310000109",
+      "target_id": "ORD-740508",
+      "relationship_type": "PLACED",
+      "weight": 883.88
+    },
+    {
+      "id": 4,
+      "source_id": "CUST-320000083",
+      "target_id": "ORD-740509",
+      "relationship_type": "PLACED",
+      "weight": 229.66
+    },
+    {
+      "id": 5,
+      "source_id": "CUST-320000083",
+      "target_id": "ORD-740510",
+      "relationship_type": "PLACED",
+      "weight": 221.19
+    }
+  ],
+  "products": [
+    {
+      "product": "3001456",
+      "product_type": "ZPKG",
+      "product_old_id": "WD-BOX-CG",
+      "gross_weight": 0.012,
+      "net_weight": 0.01,
+      "weight_unit": "KG",
+      "product_group": "ZPKG004",
+      "base_unit": "PC",
+      "description": "WB-CG CHARCOAL GANG"
+    },
+    {
+      "product": "3001468",
+      "product_type": "ZPKG",
+      "product_old_id": "GS-CG",
+      "gross_weight": 0.012,
+      "net_weight": 0.01,
+      "weight_unit": "KG",
+      "product_group": "ZPKG004",
+      "base_unit": "PC",
+      "description": "WB-GS CHARCOAL GANG 22.2X24X6.7CM"
+    },
+    {
+      "product": "B8907367002246",
+      "product_type": "ZF01",
+      "product_old_id": "ABC-WEB-225",
+      "gross_weight": 0.11,
+      "net_weight": 0.1,
+      "weight_unit": "KG",
+      "product_group": "ZFG1001",
+      "base_unit": "PC",
+      "description": "THE CHARCOAL GANG"
+    },
+    {
+      "product": "B8907367015697",
+      "product_type": "ZF01",
+      "product_old_id": "ABC-WEB-1186",
+      "gross_weight": 0.11,
+      "net_weight": 0.1,
+      "weight_unit": "KG",
+      "product_group": "ZFG1001",
+      "base_unit": "PC",
+      "description": "LIP LIGHTENING COMBO"
+    },
+    {
+      "product": "B8907367022152",
+      "product_type": "ZF01",
+      "product_old_id": "ABC-WEB-2241",
+      "gross_weight": 0.11,
+      "net_weight": 0.1,
+      "weight_unit": "KG",
+      "product_group": "ZFG1001",
+      "base_unit": "PC",
+      "description": "FACEWASH VIT C-B1G1"
+    }
+  ],
+  "billing": [
+    {
+      "billing_document": "90504248",
+      "doc_type": "F2",
+      "creation_date": "2025-04-03T00:00:00.000Z",
+      "billing_date": "2025-04-02T00:00:00.000Z",
+      "is_cancelled": 0,
+      "cancelled_doc": "",
+      "total_net_amount": 216.1,
+      "currency": "INR",
+      "company_code": "ABCD",
+      "fiscal_year": "2025",
+      "accounting_document": "9400000249",
+      "sold_to_party": "320000083"
+    },
+    {
+      "billing_document": "90628265",
+      "doc_type": "F2",
+      "creation_date": "2025-05-09T00:00:00.000Z",
+      "billing_date": "2025-04-30T00:00:00.000Z",
+      "is_cancelled": 0,
+      "cancelled_doc": "",
+      "total_net_amount": 245.9,
+      "currency": "INR",
+      "company_code": "ABCD",
+      "fiscal_year": "2025",
+      "accounting_document": "9400123662",
+      "sold_to_party": "320000082"
+    },
+    {
+      "billing_document": "90628266",
+      "doc_type": "F2",
+      "creation_date": "2025-05-09T00:00:00.000Z",
+      "billing_date": "2025-04-30T00:00:00.000Z",
+      "is_cancelled": 0,
+      "cancelled_doc": "",
+      "total_net_amount": 287.9,
+      "currency": "INR",
+      "company_code": "ABCD",
+      "fiscal_year": "2025",
+      "accounting_document": "9400123663",
+      "sold_to_party": "320000082"
+    },
+    {
+      "billing_document": "90504274",
+      "doc_type": "F2",
+      "creation_date": "2025-04-03T00:00:00.000Z",
+      "billing_date": "2025-04-02T00:00:00.000Z",
+      "is_cancelled": 1,
+      "cancelled_doc": "",
+      "total_net_amount": 253.39,
+      "currency": "INR",
+      "company_code": "ABCD",
+      "fiscal_year": "2025",
+      "accounting_document": "9400000275",
+      "sold_to_party": "320000083"
+    },
+    {
+      "billing_document": "90504242",
+      "doc_type": "F2",
+      "creation_date": "2025-04-03T00:00:00.000Z",
+      "billing_date": "2025-04-02T00:00:00.000Z",
+      "is_cancelled": 1,
+      "cancelled_doc": "",
+      "total_net_amount": 151.69,
+      "currency": "INR",
+      "company_code": "ABCD",
+      "fiscal_year": "2025",
+      "accounting_document": "9400000243",
+      "sold_to_party": "320000083"
+    }
+  ],
+  "sales_items": [
+    {
+      "sales_order": "740506",
+      "item_number": "10",
+      "material": "S8907367001003",
+      "requested_qty": 48.0,
+      "qty_unit": "PC",
+      "net_amount": 9966.1,
+      "currency": "INR",
+      "material_group": "ZFG1001",
+      "plant": "1920",
+      "storage_location": "V2S2"
+    },
+    {
+      "sales_order": "740506",
+      "item_number": "20",
+      "material": "S8907367000327",
+      "requested_qty": 10.0,
+      "qty_unit": "PC",
+      "net_amount": 2366.95,
+      "currency": "INR",
+      "material_group": "ZFG1001",
+      "plant": "1920",
+      "storage_location": "V2S2"
+    },
+    {
+      "sales_order": "740506",
+      "item_number": "30",
+      "material": "S8907367020073",
+      "requested_qty": 8.0,
+      "qty_unit": "PC",
+      "net_amount": 1181.69,
+      "currency": "INR",
+      "material_group": "ZFG1001",
+      "plant": "1920",
+      "storage_location": "V2S2"
+    },
+    {
+      "sales_order": "740506",
+      "item_number": "40",
+      "material": "S8907367025344",
+      "requested_qty": 4.0,
+      "qty_unit": "PC",
+      "net_amount": 709.49,
+      "currency": "INR",
+      "material_group": "ZFG1001",
+      "plant": "1920",
+      "storage_location": "V2S2"
+    },
+    {
+      "sales_order": "740506",
+      "item_number": "50",
+      "material": "S8907367035664",
+      "requested_qty": 11.0,
+      "qty_unit": "PC",
+      "net_amount": 2884.02,
+      "currency": "INR",
+      "material_group": "ZFG1001",
+      "plant": "1920",
+      "storage_location": "V2S2"
+    }
+  ],
+  "sales": [
+    {
+      "sales_order": "740506",
+      "order_type": "OR",
+      "sales_org": "ABCD",
+      "distribution_channel": "05",
+      "sold_to_party": "310000108",
+      "creation_date": "2025-03-31T00:00:00.000Z",
+      "total_net_amount": 17108.25,
+      "currency": "INR",
+      "delivery_status": "C",
+      "billing_status": "",
+      "incoterms": "FOR",
+      "incoterms_location": "Millerborough",
+      "payment_terms": "Z009"
+    },
+    {
+      "sales_order": "740507",
+      "order_type": "OR",
+      "sales_org": "ABCD",
+      "distribution_channel": "05",
+      "sold_to_party": "310000109",
+      "creation_date": "2025-03-31T00:00:00.000Z",
+      "total_net_amount": 19021.27,
+      "currency": "INR",
+      "delivery_status": "C",
+      "billing_status": "",
+      "incoterms": "FOR",
+      "incoterms_location": "Millerborough",
+      "payment_terms": "Z009"
+    },
+    {
+      "sales_order": "740508",
+      "order_type": "OR",
+      "sales_org": "ABCD",
+      "distribution_channel": "05",
+      "sold_to_party": "310000109",
+      "creation_date": "2025-03-31T00:00:00.000Z",
+      "total_net_amount": 883.88,
+      "currency": "INR",
+      "delivery_status": "C",
+      "billing_status": "",
+      "incoterms": "FOR",
+      "incoterms_location": "Millerborough",
+      "payment_terms": "Z009"
+    },
+    {
+      "sales_order": "740509",
+      "order_type": "OR",
+      "sales_org": "ABCD",
+      "distribution_channel": "11",
+      "sold_to_party": "320000083",
+      "creation_date": "2025-04-02T00:00:00.000Z",
+      "total_net_amount": 229.66,
+      "currency": "INR",
+      "delivery_status": "C",
+      "billing_status": "",
+      "incoterms": "FOR",
+      "incoterms_location": "Lake David",
+      "payment_terms": "Z001"
+    },
+    {
+      "sales_order": "740510",
+      "order_type": "OR",
+      "sales_org": "ABCD",
+      "distribution_channel": "11",
+      "sold_to_party": "320000083",
+      "creation_date": "2025-04-02T00:00:00.000Z",
+      "total_net_amount": 221.19,
+      "currency": "INR",
+      "delivery_status": "C",
+      "billing_status": "",
+      "incoterms": "FOR",
+      "incoterms_location": "Lake David",
+      "payment_terms": "Z001"
+    }
+  ],
+  "edges_bil": []
+}
